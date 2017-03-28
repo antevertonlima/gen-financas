@@ -1,0 +1,19 @@
+{
+    "name": "antevertonlima/gen-financas",
+    "description": "Gerenciador financeiro pessoal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Everton Lima Rolim",
+            "email": "antevertonlima@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "0.7.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "GenFin\\": "src/"
+        }
+    }
+}
